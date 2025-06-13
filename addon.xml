@@ -7,7 +7,7 @@
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
     <!-- THIS EXTENSION POINT IS REQUIRED -->
-    <extension point="xbmc.python.pluginsource" library="main.py" />
+    <extension point="xbmc.python.pluginsource" library="main.py" provides="video"/>
     <extension point="xbmc.addon.metadata">
         <summary>Test add-on for Soccer, Cricket, Rugby categories with sample videos</summary>
         <description>
