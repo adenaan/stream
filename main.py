@@ -6,7 +6,6 @@ import urllib.parse
 BASE_URL = sys.argv[0]
 HANDLE = int(sys.argv[1])
 
-# Sample video links (replace or scrape as needed)
 CATEGORIES = {
     "Soccer": [
         {"title": "Soccer Highlights 1", "url": "https://www.sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4"},
@@ -37,12 +36,17 @@ def list_videos(category):
     for video in videos:
         li = xbmcgui.ListItem(label=video['title'])
         li.setProperty('IsPlayable', 'true')
-        xbmcplugin.addDirectoryItem(handle=HANDLE, url=video['url'], listitem=li, isFolder=False)
+        # Route play through plugin
+        url = get_url(play=video['url'])
+        xbmcplugin.addDirectoryItem(handle=HANDLE, url=url, listitem=li, isFolder=False)
     xbmcplugin.endOfDirectory(HANDLE)
 
 def router(paramstring):
     params = dict(urllib.parse.parse_qsl(paramstring))
-    if 'category' in params:
+    if 'play' in params:
+        li = xbmcgui.ListItem(path=params['play'])
+        xbmcplugin.setResolvedUrl(HANDLE, True, li)
+    elif 'category' in params:
         list_videos(params['category'])
     else:
         list_categories()
