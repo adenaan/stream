@@ -11,6 +11,7 @@
     <extension point="xbmc.addon.metadata">
            <provides>video</provides>
            <content>videos</content>
+            <type>video</type>
         <summary>Test add-on for Soccer, Cricket, Rugby categories with sample videos</summary>
         <description>
             Kodi video add-on with three categories: Soccer, Cricket, and Rugby.
