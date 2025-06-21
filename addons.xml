@@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon>
+<addons>
 
 	<!-- Repository Add-on -->
     <addon id="repository.zarepo" name="[COLOR purple]AddieStreams[/COLOR]" version="1.6.0" provider-name="Addie">
