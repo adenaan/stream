@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+    <!-- Addie Streams Repository Add-on -->
+    <addon id="repository.zarepo"
+           name="AddieStreams"
+           version="1.0.0"
+           provider-name="Addie">
+        <extension point="xbmc.addon.repository" name="AddieStreams">
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/adenaan/stream/main/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/adenaan/stream/main/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/adenaan/stream/main/zips/</datadir>
+            </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>ZA Kodi Add-ons Repository!</summary>
+            <description>Repository for South Africa Kodi add-ons.</description>
+            <platform>all</platform>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </assets>
+        </extension>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <zip>repository.zarepo-1.0.0.zip</zip>
+        </assets>
+    </addon>
+
+    <!-- Addie Streams Video Add-on -->
+    <addon id="plugin.video.addielive"
+           name="Addie Streams"
+           version="1.0.3"
+           provider-name="Addie">
+        <extension point="xbmc.python.pluginsource" library="main.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en">Watch live IPTV streams....</summary>
+            <description lang="en">Live streams for Kodi around the world.</description>
+            <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+            <license>Free the People!, Free the World!!</license>
+            <platform>all</platform>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </assets>
+        </extension>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <zip>plugin.video.addielive-1.0.3.zip</zip>
+        </assets>
+    </addon>
+</addons>
