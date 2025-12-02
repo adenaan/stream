@@ -31,7 +31,7 @@
     <!-- Addie Streams Video Add-on -->
     <addon id="plugin.video.addielive"
            name="Addie Streams"
-           version="1.0.3"
+           version="1.0.4"
            provider-name="Addie">
         <extension point="xbmc.python.pluginsource" library="main.py">
             <provides>video</provides>
