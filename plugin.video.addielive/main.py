@@ -17,7 +17,7 @@ CUSTOM_GROUP_NAME = "24/7"
 CUSTOM_CHANNELS = [
     {
         "title": "Rick and Morty Live",
-        "url": "https://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream_7.m3u8",
+        "url": "https://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8",
         "logo": "https://raw.githubusercontent.com/adenaan/stream/refs/heads/main/art/rickmorty.png",
     }
 ]
