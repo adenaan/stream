@@ -11,7 +11,7 @@ HANDLE = int(sys.argv[1])
 
 SA_M3U = "https://iptv-org.github.io/iptv/countries/za.m3u"
 WORLD_M3U = "https://iptv-org.github.io/iptv/index.m3u"
-LOOP_M3U = "https://raw.githubusercontent.com/adenaan/stream/main/files/247.m3u8"  # Update this if needed
+LOOP_M3U = "https://adenaan.github.io/stream/247.m3u8"  # Update this if needed
 
 def get_url(**kwargs):
     return f"{BASE_URL}?{urllib.parse.urlencode(kwargs)}"
