@@ -3,7 +3,7 @@
     <!-- Addie Streams Repository Add-on -->
     <addon id="repository.zarepo"
            name="AddieStreams"
-           version="1.0.10"
+           version="1.0.11"
            provider-name="Addie">
         <extension point="xbmc.addon.repository" name="AddieStreams">
             <dir>
@@ -24,14 +24,14 @@
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
-            <zip>repository.zarepo-1.0.10.zip</zip>
+            <zip>repository.zarepo-1.0.11.zip</zip>
         </assets>
     </addon>
 
     <!-- Addie Streams Video Add-on -->
     <addon id="plugin.video.addielive"
            name="Addie Streams"
-           version="1.0.14"
+           version="1.0.15"
            provider-name="Addie">
         <extension point="xbmc.python.pluginsource" library="main.py">
             <provides>video</provides>
@@ -50,7 +50,7 @@
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
-            <zip>plugin.video.addielive-1.0.14.zip</zip>
+            <zip>plugin.video.addielive-1.0.15.zip</zip>
         </assets>
     </addon>
 </addons>
