@@ -13,7 +13,7 @@ SA_M3U = "https://iptv-org.github.io/iptv/countries/za.m3u"
 WORLD_M3U = "https://iptv-org.github.io/iptv/index.m3u"
 
 # 24/7 main (your original one – keep using what works)
-LOOP_M3U = "https://hostingfree.co.za/streams/24-7A.m3u8"
+LOOP_M3U = "https://hostingfree.co.za/streams/247.m3u8"
 
 # Sports playlist
 SPORTS_M3U = "https://hostingfree.co.za/streams/Sport.m3u8"
