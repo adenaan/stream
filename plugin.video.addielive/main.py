@@ -13,7 +13,7 @@ SA_M3U = "https://iptv-org.github.io/iptv/countries/za.m3u"
 WORLD_M3U = "https://iptv-org.github.io/iptv/index.m3u"
 
 # Use RAW GitLab links instead of BLOB
-LOOP_M3U = "https://hostingfree.co.za/streams/247.m3u8"
+LOOP_M3U = "https://adenaan.github.io/stream/247.m3u8"
 SPORTS_M3U = "https://hostingfree.co.za/streams/Sport.m3u8"
 
 
