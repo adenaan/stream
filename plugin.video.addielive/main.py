@@ -11,8 +11,10 @@ HANDLE = int(sys.argv[1])
 
 SA_M3U = "https://iptv-org.github.io/iptv/countries/za.m3u"
 WORLD_M3U = "https://iptv-org.github.io/iptv/index.m3u"
-LOOP_M3U = "https://gitlab.com/addiestreams/addie-streams/-/blob/main/247.m3u8"  # 24/7 playlist
-SPORTS_M3U = "https://gitlab.com/addiestreams/addie-streams/-/blob/main/Sport.m3u8"  # Sports playlist
+
+# Use RAW GitLab links instead of BLOB
+LOOP_M3U = "https://gitlab.com/addiestreams/addie-streams/-/raw/main/247.m3u8"
+SPORTS_M3U = "https://gitlab.com/addiestreams/addie-streams/-/raw/main/Sport.m3u8"
 
 
 def get_url(**kwargs):
@@ -21,19 +23,24 @@ def get_url(**kwargs):
 
 def get_channels(m3u_url):
     try:
-        with urllib.request.urlopen(m3u_url, timeout=10) as response:
-            m3u = response.read().decode("utf-8")
+        # Add a normal browser User-Agent to avoid 403 on some hosts
+        req = urllib.request.Request(
+            m3u_url,
+            headers={"User-Agent": "Mozilla/5.0"}
+        )
+        with urllib.request.urlopen(req, timeout=10) as response:
+            m3u = response.read().decode("utf-8", errors="ignore")
     except Exception as e:
         xbmcgui.Dialog().ok("Error", f"Could not fetch channel list:\n{e}")
         return {}
 
     lines = m3u.splitlines()
     groups = defaultdict(list)
-    title, logo, group, url = '', '', '', ''
+    title, logo, url = '', '', ''
     # Default group name if none is provided in the playlist
-    group_list = ["24/7"]
+    group_list = ["Other"]
 
-    for i, line in enumerate(lines):
+    for line in lines:
         if line.startswith("#EXTINF"):
             name_match = re.search(r",(.+)", line)
             title = name_match.group(1).strip() if name_match else "Unknown"
@@ -42,14 +49,14 @@ def get_channels(m3u_url):
             logo = logo_match.group(1) if logo_match else ""
 
             group_match = re.search(r'group-title="([^"]+)"', line)
-            group_field = group_match.group(1) if group_match else "24/7"
+            group_field = group_match.group(1) if group_match else "Other"
 
             # If there are multiple group names separated by ; use them all
             group_list = [g.strip() for g in group_field.split(";") if g.strip()]
 
         elif line and line.startswith("http"):
             url = line.strip()
-            for group in group_list if 'group_list' in locals() else ["24/7"]:
+            for group in group_list:
                 groups[group].append({"title": title, "url": url, "logo": logo})
 
     return groups
