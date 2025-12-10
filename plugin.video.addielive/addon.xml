@@ -1,16 +1,16 @@
 <addon id="plugin.video.addielive"
-       version="1.0.16"
+       version="1.0.18"
        name="Addie Streams"
        provider-name="Addie">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
-    <extension point="xbmc.python.pluginsource" library="main.py" icon="icon.png">
+    <extension point="xbmc.python.pluginsource" library="main.py" icon="icon1.png">
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">South African TV Channels</summary>
-        <description lang="en_GB">Free and public South African TV channels</description>
+        <description lang="en_GB">Free and public World Wide TV channels</description>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
