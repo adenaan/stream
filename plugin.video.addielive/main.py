@@ -99,19 +99,19 @@ def list_categories():
     radio_url = get_url(category="radio")
 
     # Make the home page prettier with color & bold + emojis
-    sa_li = xbmcgui.ListItem("[COLOR lightblue][B]🇿🇦 South Africa[/B][/COLOR]")
-    world_li = xbmcgui.ListItem("[COLOR lightblue][B]🌍 World[/B][/COLOR]")
-    loop_li = xbmcgui.ListItem("[COLOR gold][B]⏱ 24/7 Main[/B][/COLOR]")
-    movies_series_li = xbmcgui.ListItem("[COLOR gold]🎬 24/7 Movies & Series[/COLOR]")
-    extra_247_li = xbmcgui.ListItem("[COLOR gold]📺 24/7 A Mix[/COLOR]")
-    moviescord_li = xbmcgui.ListItem("[COLOR orange]🎥 Movies[/COLOR]")
-    sports_li = xbmcgui.ListItem("[COLOR lawngreen][B]🏆 Sports[/B][/COLOR]")
+    sa_li = xbmcgui.ListItem("[COLOR lightblue][B]South Africa[/B][/COLOR]")
+    world_li = xbmcgui.ListItem("[COLOR lightblue][B]World[/B][/COLOR]")
+    loop_li = xbmcgui.ListItem("[COLOR gold][B]24/7 Main[/B][/COLOR]")
+    movies_series_li = xbmcgui.ListItem("[COLOR gold]24/7 Movies & Series[/COLOR]")
+    extra_247_li = xbmcgui.ListItem("[COLOR gold]24/7 A Mix[/COLOR]")
+    moviescord_li = xbmcgui.ListItem("[COLOR orange]Movies[/COLOR]")
+    sports_li = xbmcgui.ListItem("[COLOR lawngreen][B]Sports[/B][/COLOR]")
 
-    countries_li = xbmcgui.ListItem("[COLOR deepskyblue][B]🌐 Countries[/B][/COLOR]")
-    kids_li = xbmcgui.ListItem("[COLOR fuchsia][B]🧒 Kids Zone[/B][/COLOR]")
-    movie_networks_li = xbmcgui.ListItem("[COLOR orange][B]🎞 Movie Networks[/B][/COLOR]")
-    series_li = xbmcgui.ListItem("[COLOR cyan][B]📺 Series[/B][/COLOR]")
-    radio_li = xbmcgui.ListItem("[COLOR yellow][B]📻 Radio Stations[/B][/COLOR]")
+    countries_li = xbmcgui.ListItem("[COLOR deepskyblue][B]Countries[/B][/COLOR]")
+    kids_li = xbmcgui.ListItem("[COLOR fuchsia][B]Kids Zone[/B][/COLOR]")
+    movie_networks_li = xbmcgui.ListItem("[COLOR orange][B]Movie Networks[/B][/COLOR]")
+    series_li = xbmcgui.ListItem("[COLOR cyan][B]Series[/B][/COLOR]")
+    radio_li = xbmcgui.ListItem("[COLOR yellow][B]Radio Stations[/B][/COLOR]")
 
     # Add main categories
     xbmcplugin.addDirectoryItem(handle=HANDLE, url=sa_url, listitem=sa_li, isFolder=True)
@@ -130,7 +130,7 @@ def list_categories():
 
     # Clear cache button at bottom
     clear_url = get_url(action="clear_cache")
-    clear_li = xbmcgui.ListItem("[B][COLOR gold]🧹 Clear Addon Cache[/COLOR][/B]")
+    clear_li = xbmcgui.ListItem("[B][COLOR gold]Clear Addon Cache[/COLOR][/B]")
     xbmcplugin.addDirectoryItem(handle=HANDLE, url=clear_url, listitem=clear_li, isFolder=False)
 
     xbmcplugin.endOfDirectory(HANDLE)
