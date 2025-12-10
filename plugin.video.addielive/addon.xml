@@ -5,7 +5,7 @@
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
-    <extension point="xbmc.python.pluginsource" library="main.py" icon="icon1.png">
+    <extension point="xbmc.python.pluginsource" library="main.py" icon="icon.png">
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
