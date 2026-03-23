@@ -20,7 +20,7 @@ WORLD_M3U = "https://iptv-org.github.io/iptv/index.m3u"
 LOOP_M3U = "https://hostingfree.co.za/streams/247.m3u8"
 
 # Sports playlist
-SPORTS_M3U = "https://hostingfree.co.za/streams/Sport.m3u8"
+SPORTS_M3U = "https://hostingfree.co.za/streams/Sport.m3u"
 
 # 24/7 / Movies playlists
 MOVIES_SERIES_247_M3U = "https://hostingfree.co.za/streams/24-7_MOVIES_SERIES.m3u8"
