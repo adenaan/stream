@@ -17,22 +17,22 @@ SA_M3U = "https://iptv-org.github.io/iptv/countries/za.m3u"
 WORLD_M3U = "https://iptv-org.github.io/iptv/index.m3u"
 
 # 24/7 main (your original one – keep using what works)
-LOOP_M3U = "https://github.com/adenaan/stream/tree/main/streams/247.m3u8"
+LOOP_M3U = "https://raw.githubusercontent.com/adenaan/stream/refs/heads/main/streams/247.m3u8"
 
 # Sports playlist
-SPORTS_M3U = "https://github.com/adenaan/stream/tree/main/streams/Sport.m3u8"
+SPORTS_M3U = "https://raw.githubusercontent.com/adenaan/stream/refs/heads/main/streams/Sport.m3u8"
 
 # 24/7 / Movies playlists
-MOVIES_SERIES_247_M3U = "https://github.com/adenaan/stream/tree/main/streams/24-7_MOVIES_SERIES.m3u8"
-EXTRA_247_M3U = "https://github.com/adenaan/stream/tree/main/streams/24-7A.m3u8"
-MOVIESCORD_M3U = "https://github.com/adenaan/stream/tree/main/streams/MOVIEScord.m3u8"
+MOVIES_SERIES_247_M3U = "https://raw.githubusercontent.com/adenaan/stream/refs/heads/main/streams/24-7_MOVIES_SERIES.m3u8"
+EXTRA_247_M3U = "https://raw.githubusercontent.com/adenaan/stream/refs/heads/main/streams/24-7A.m3u8"
+MOVIESCORD_M3U = "https://raw.githubusercontent.com/adenaan/stream/refs/heads/main/streams/MOVIEScord.m3u8"
 
 # New playlists
-COUNTRIES_M3U = "https://github.com/adenaan/stream/tree/main/streams/country_channels_all.m3u8"
-KIDS_M3U = "https://github.com/adenaan/stream/tree/main/streams/kids_zone.m3u8"
-MOVIE_NETWORKS_M3U = "https://github.com/adenaan/stream/tree/main/streams/movie_networks.m3u8"
-SERIES_M3U = "https://github.com/adenaan/stream/tree/main/streams/series.m3u8"
-RADIO_M3U = "https://github.com/adenaan/stream/tree/main/streams/radio_stations.m3u8"
+COUNTRIES_M3U = "https://raw.githubusercontent.com/adenaan/stream/refs/heads/main/streams/country_channels_all.m3u8"
+KIDS_M3U = "https://raw.githubusercontent.com/adenaan/stream/refs/heads/main/streams/kids_zone.m3u8"
+MOVIE_NETWORKS_M3U = "https://raw.githubusercontent.com/adenaan/stream/refs/heads/main/streams/movie_networks.m3u8"
+SERIES_M3U = "https://raw.githubusercontent.com/adenaan/stream/refs/heads/main/streams/series.m3u8"
+RADIO_M3U = "https://raw.githubusercontent.com/adenaan/stream/refs/heads/main/streams/radio_stations.m3u8"
 
 
 def get_url(**kwargs):

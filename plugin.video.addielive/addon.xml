@@ -1,5 +1,5 @@
 <addon id="plugin.video.addielive"
-       version="1.0.19"
+       version="1.0.20"
        name="Addie Streams"
        provider-name="Addie">
     <requires>
