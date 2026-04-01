@@ -1,37 +1,37 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="ytv.ca" tvg-name="CA YTV East " tvg-logo="" group-title="KIDS ZONE",CA YTV East 
-http://fortv.cc:8080/33QbGv/014458/63850
-#EXTINF:-1 tvg-id="cartoonnetwork.ca" tvg-name="CA Cartoon Network " tvg-logo="" group-title="KIDS ZONE",CA Cartoon Network 
-http://fortv.cc:8080/33QbGv/014458/57380
+#EXTINF:-1 tvg-id="ytv.ca" tvg-name="CA YTV East " tvg-logo="" group-title="KIDS ZONE",CA YTV East
+http://fortv.cc:8080/KennyJ22@gmail/KennyJ22/63850
+#EXTINF:-1 tvg-id="cartoonnetwork.ca" tvg-name="CA Cartoon Network " tvg-logo="" group-title="KIDS ZONE",CA Cartoon Network
+http://fortv.cc:8080/KennyJ22@gmail/KennyJ22/57380
 #EXTINF:-1 tvg-id="cartoonnetwork.ca" tvg-name="CA Cartoon Network (E)" tvg-logo="" group-title="KIDS ZONE",CA Cartoon Network (E)
-http://fortv.cc:8080/33QbGv/014458/57356
-#EXTINF:-1 tvg-id="disneyjunior.us" tvg-name="CA Disney Junior " tvg-logo="" group-title="KIDS ZONE",CA Disney Junior 
-http://fortv.cc:8080/33QbGv/014458/57349
+http://fortv.cc:8080/KennyJ22@gmail/KennyJ22/57356
+#EXTINF:-1 tvg-id="disneyjunior.us" tvg-name="CA Disney Junior " tvg-logo="" group-title="KIDS ZONE",CA Disney Junior
+http://fortv.cc:8080/KennyJ22@gmail/KennyJ22/57349
 #EXTINF:-1 tvg-id="disneyxd.ca" tvg-name="CA Disney XD (R)" tvg-logo="" group-title="KIDS ZONE",CA Disney XD (R)
-http://fortv.cc:8080/33QbGv/014458/57420
-#EXTINF:-1 tvg-id="discoveryfamilia.us" tvg-name="US Discovery Family " tvg-logo="" group-title="KIDS ZONE",US Discovery Family 
-http://fortv.cc:8080/33QbGv/014458/57347
+http://fortv.cc:8080/KennyJ22@gmail/KennyJ22/57420
+#EXTINF:-1 tvg-id="discoveryfamilia.us" tvg-name="US Discovery Family " tvg-logo="" group-title="KIDS ZONE",US Discovery Family
+http://fortv.cc:8080/KennyJ22@gmail/KennyJ22/57347
 #EXTINF:-1 tvg-id="familyjr.ca" tvg-name="CA: Family Jr HD" tvg-logo="" group-title="KIDS ZONE",CA: Family Jr HD
-http://fortv.cc:8080/33QbGv/014458/57346
+http://fortv.cc:8080/KennyJ22@gmail/KennyJ22/57346
 #EXTINF:-1 tvg-id="nickelodeon.ca" tvg-name="CA Nickelodeon (R)" tvg-logo="" group-title="KIDS ZONE",CA Nickelodeon (R)
-http://fortv.cc:8080/33QbGv/014458/47349
+http://fortv.cc:8080/KennyJ22@gmail/KennyJ22/47349
 #EXTINF:-1 tvg-id="teletoon.ca" tvg-name="CA Teletoon East (E)" tvg-logo="" group-title="KIDS ZONE",CA Teletoon East (E)
-http://fortv.cc:8080/33QbGv/014458/57372
+http://fortv.cc:8080/KennyJ22@gmail/KennyJ22/57372
 #EXTINF:-1 tvg-id="treehouse.ca" tvg-name="CA Treehouse (R)" tvg-logo="" group-title="KIDS ZONE",CA Treehouse (R)
-http://fortv.cc:8080/33QbGv/014458/57371
+http://fortv.cc:8080/KennyJ22@gmail/KennyJ22/57371
 #EXTINF:-1 tvg-id="discoverychannel.us" tvg-name="US Disney Channel East (A)" tvg-logo="https://logodix.com/logo/619307.png" group-title="KIDS ZONE",US Disney Channel East (A)
-http://fortv.cc:8080/33QbGv/014458/2206
+http://fortv.cc:8080/KennyJ22@gmail/KennyJ22/2206
 #EXTINF:-1 tvg-id="disneychannel.us" tvg-name="US: Disney XD" tvg-logo="" group-title="KIDS ZONE",US: Disney XD
-http://fortv.cc:8080/33QbGv/014458/75621
-#EXTINF:-1 tvg-id="nicktoons.us" tvg-name="US NickToons " tvg-logo="https://juicetv.app/channellogo/nickelodeon.png" group-title="KIDS ZONE",US NickToons 
-http://fortv.cc:8080/33QbGv/014458/36
+http://fortv.cc:8080/KennyJ22@gmail/KennyJ22/75621
+#EXTINF:-1 tvg-id="nicktoons.us" tvg-name="US NickToons " tvg-logo="https://juicetv.app/channellogo/nickelodeon.png" group-title="KIDS ZONE",US NickToons
+http://fortv.cc:8080/KennyJ22@gmail/KennyJ22/36
 #EXTINF:-1 tvg-id="disneyjunior.us" tvg-name="USA-Disney Jr" tvg-logo="" group-title="KIDS ZONE",USA-Disney Jr
-http://fortv.cc:8080/33QbGv/014458/41960
+http://fortv.cc:8080/KennyJ22@gmail/KennyJ22/41960
 #EXTINF:-1 tvg-id="nickelodeon.us" tvg-name="US Nickelodeon East (A)" tvg-logo="" group-title="KIDS ZONE",US Nickelodeon East (A)
-http://fortv.cc:8080/33QbGv/014458/38
-#EXTINF:-1 tvg-id="boomerang.us" tvg-name="US Boomerang " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Boomerang_tv_logo.png/758px-Boomerang_tv_logo.png" group-title="KIDS ZONE",US Boomerang 
-http://fortv.cc:8080/33QbGv/014458/14741
-#EXTINF:-1 tvg-id="nickjr.us" tvg-name="US Nick JR East (A) " tvg-logo="https://seeklogo.com/images/N/nick-jr-logo-DC18CDB75D-seeklogo.com.png" group-title="KIDS ZONE",US Nick JR East (A) 
-http://fortv.cc:8080/33QbGv/014458/9807
+http://fortv.cc:8080/KennyJ22@gmail/KennyJ22/38
+#EXTINF:-1 tvg-id="boomerang.us" tvg-name="US Boomerang " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Boomerang_tv_logo.png/758px-Boomerang_tv_logo.png" group-title="KIDS ZONE",US Boomerang
+http://fortv.cc:8080/KennyJ22@gmail/KennyJ22/14741
+#EXTINF:-1 tvg-id="nickjr.us" tvg-name="US Nick JR East (A) " tvg-logo="https://seeklogo.com/images/N/nick-jr-logo-DC18CDB75D-seeklogo.com.png" group-title="KIDS ZONE",US Nick JR East (A)
+http://fortv.cc:8080/KennyJ22@gmail/KennyJ22/9807
 #EXTINF:-1 tvg-id="teennick.us" tvg-name="US TeenNick" tvg-logo="" group-title="KIDS ZONE",US TeenNick
-http://fortv.cc:8080/33QbGv/014458/140004
+http://fortv.cc:8080/KennyJ22@gmail/KennyJ22/140004
